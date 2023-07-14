@@ -37,7 +37,7 @@
   padding: 120px;
 }
 .details_img {
-  background-image: url("/assets/1.png");
+  background-image: url("assets/1.png");
   background-repeat: no-repeat;
   margin-left: 200px;
 }
