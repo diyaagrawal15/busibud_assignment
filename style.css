@@ -1,0 +1,203 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+.header img {
+  padding-top: 10px;
+  height: 50px;
+}
+.navbar {
+  text-align: center;
+}
+.navbar ul {
+  display: inline-flex;
+  list-style: none outside none;
+}
+.navbar ul li {
+  padding: 25px;
+  font-weight: bold;
+}
+.details {
+  height: 540px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.details_Left {
+  height: 450pxpx;
+  width: 50%;
+  margin-left: auto;
+  margin-right: 0;
+}
+.details_head {
+  padding: 120px;
+}
+.details_text {
+  padding: 120px;
+}
+.details_img {
+  background-image: url("/assets/1.png");
+  background-repeat: no-repeat;
+  margin-left: 200px;
+}
+.details_text span {
+  font-size: 27px;
+}
+.details_text p {
+  font-size: 18px;
+}
+.pricing_button {
+  top: 564px;
+  left: 121px;
+  width: 247px;
+  height: 65px;
+  /* UI Properties */
+  background: #1492e6 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 33px;
+  border: none;
+  opacity: 1;
+  font-size: 20px;
+  color: white;
+  margin-top: 6.5rem;
+}
+.cards_area2 {
+  margin-top: 30px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 17%;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 30px;
+  display: inline-block;
+}
+
+.card2 {
+  width: 17%;
+  border-radius: 15px;
+  padding: 10px;
+  margin: 30px;
+  display: inline-block;
+}
+.card h3 {
+  text-align: center;
+}
+.card2 h3 {
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+}
+.card p,
+.card2 p {
+  font-size: 18px;
+  text-align: left;
+  padding: 0px 20px 0px 20px;
+}
+.cards_area {
+  text-align: center;
+}
+
+.Chead {
+  text-align: center;
+  font-size: large;
+  margin-top: 110px;
+}
+
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+.IconsAndname {
+  text-align: center;
+}
+.IconsAndname img {
+  vertical-align: middle;
+}
+.IconsAndname span {
+  vertical-align: middle;
+}
+.pricing_button2 {
+  top: 0px;
+  left: 121px;
+  width: 247px;
+  height: 65px;
+  /* UI Properties */
+  background: #1492e6 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 33px;
+  border: none;
+  opacity: 1;
+  font-size: 20px;
+  color: white;
+  margin-top: 3rem;
+}
+.feedback {
+  margin-top: 4rem;
+  top: 3764px;
+  left: 59px;
+  width: 1097px;
+  height: 363px;
+  /* UI Properties */
+  background: #f8fafc 0% 0% no-repeat padding-box;
+  box-shadow: 0px 16px 48px #00000029;
+  border-radius: 42px;
+  opacity: 1;
+}
+.feedback .IconsAndname {
+  float: left;
+  padding: 20px;
+  font-size: 25px;
+  position: absolute;
+}
+
+.feedback .feedbackParent {
+  position: relative;
+}
+.feedback_card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 25%;
+  height: 14rem;
+  border-radius: 25px;
+  margin-left: 30px;
+  margin-top: 180px;
+  display: inline-block;
+  background-color: white;
+}
+.feedbackIconsAndname {
+  text-align: center;
+}
+.feedbackIconsAndname img {
+  vertical-align: middle;
+}
+.feedbackIconsAndname span {
+  vertical-align: middle;
+}
+.parentCompany {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.footer {
+  background-color: black;
+  height: 18rem;
+  width: 99vw;
+  margin-left: -215px;
+  color: white;
+  position: relative;
+  min-height: 150px;
+}
+.footer h3 {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+}
